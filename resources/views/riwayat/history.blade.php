@@ -27,7 +27,7 @@
  
     
  <div class="row">
-  <div class="col-md-2">
+  <div class="col-md-2  ">
     <h4 class="text-center bg-primary"><b>No Order</b></h4><hr>
     @foreach($user->order as $order_)
         <li class="text-center" style="list-style-type:none"> B00{{ $order_->id }}  </li>
@@ -74,6 +74,8 @@
         <li style="list-style-type:none"><center>{{$order_->tanggal_order +1}} Hari </center></li>        
       @endforeach
       </div>
+
+
 </div>          
 </div>
 		</div>

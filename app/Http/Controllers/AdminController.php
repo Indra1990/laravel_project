@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
 use App\User;
 use App\Barang;
@@ -374,7 +375,7 @@ class AdminController extends Controller
 
             });
 
-        })->export('pdf');
+        })->export('csv');
     }
 
     

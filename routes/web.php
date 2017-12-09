@@ -41,11 +41,11 @@ Route::group(['middleware' => 'admin'],function () {
 Route::get('/admin', 'AdminController@dashboard');
 Route::get('admin/user_profile', 'AdminController@search_user');
 
-Route::get('admin/home', 'adminController@home');
-Route::get('admin/user_profile', 'adminController@user_profile');
-Route::get('admin/user_single/{id}', 'adminController@user_single');
-Route::get('admin/user_edit/{id}', 'adminController@user_edit');
-Route::PATCH('admin/user_edit/{id}', 'adminController@user_update');
+Route::get('admin/home', 'AdminController@home');
+Route::get('admin/user_profile', 'AdminController@user_profile');
+Route::get('admin/user_single/{id}', 'AdminController@user_single');
+Route::get('admin/user_edit/{id}', 'AdminController@user_edit');
+Route::PATCH('admin/user_edit/{id}', 'AdminController@user_update');
 Route::get('admin/user_profile/{id}', 'AdminController@user_delete');
 Route::get('admin/downloadExcelUser', 'AdminController@downloadExcelUser');
 

@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="form-wrap">
-                <h1>Silakan login di dgsdgsdgds sini</h1>
+                <h1>Silakan login di sini</h1>
 
                 <!--session logout-->
                  @if(Session::has('getLogout'))
